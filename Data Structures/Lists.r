@@ -57,5 +57,3 @@ list2 <- list(1, 2, 3)
 list3 <- c(list1, list2)
 # list3 <- c(x, y)
 #  লিস্ট ও একটা ভেক্টর সব আইটেম একই হলে
-
-class(list3)

@@ -46,7 +46,7 @@
 # newmatrix
 # Remove Rows and Columns
 # Use the c() function to remove rows and columns in a Matrix:
-thismatrix <- matrix(c("apple", "banana", "cherry", "orange", "mango", "pineapple"), nrow = 3, ncol = 2)
+# thismatrix <- matrix(c("apple", "banana", "cherry", "orange", "mango", "pineapple"), nrow = 3, ncol = 2)
 # # Remove the first row and the first column
 # thismatrix <- thismatrix[-c(1), -c(1)]
 
@@ -66,12 +66,12 @@ thismatrix <- matrix(c("apple", "banana", "cherry", "orange", "mango", "pineappl
 
 # Loop Through a Matrix
 # paste(nrow(thismatrix), ncol(thismatrix))
-print(1:nrow(thismatrix))
-for (rows in 1:nrow(thismatrix)) {
-    for (columns in 1:ncol(thismatrix)) {
-        print(thismatrix[rows, columns])
-    }
-}
+# print(1:nrow(thismatrix))
+# for (rows in 1:nrow(thismatrix)) {
+#     for (columns in 1:ncol(thismatrix)) {
+#         print(thismatrix[rows, columns])
+#     }
+# }
 
 # Combine two Matrices
 # Again, you can use the rbind() or cbind() function to combine two or more matrices together:
@@ -79,11 +79,10 @@ for (rows in 1:nrow(thismatrix)) {
 # Combine matrices
 Matrix1 <- matrix(c("apple", "banana", "cherry", "grape"), nrow = 2, ncol = 2)
 Matrix2 <- matrix(c("orange", "mango", "pineapple", "watermelon"), nrow = 2, ncol = 2)
-
-# Adding it as a rows
-Matrix_Combined <- rbind(Matrix1, Matrix2)
-Matrix_Combined
-
-# Adding it as a columns
-Matrix_Combined <- cbind(Matrix1, Matrix2)
-Matrix_Combined
+summary(Matrix1)
+# # Adding it as a rows
+# Matrix_Combined <- rbind(Matrix1, Matrix2)
+# Matrix_Combined
+# # Adding it as a columns
+# Matrix_Combined <- cbind(Matrix1, Matrix2)
+# Matrix_Combined
