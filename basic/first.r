@@ -39,26 +39,26 @@ grepl("X", str)
 # str2 <- "World"
 # paste(str1, str2)
 
-#! Booleans (Logical Values)
-'
+# ! Booleans (Logical Values)
+"
 You can evaluate any expression in R, and get one of two answers, TRUE or FALSE.
-'
-10 > 9    # TRUE because 10 is greater than 9
-10 == 9   # FALSE because 10 is not equal to 9
-10 < 9    # FALSE because 10 is greater than 9
+"
+10 > 9 # TRUE because 10 is greater than 9
+10 == 9 # FALSE because 10 is not equal to 9
+10 < 9 # FALSE because 10 is greater than 9
 a <- 200
 b <- 33
 if (b > a) {
-  print ("b is greater than a")
+  print("b is greater than a")
 } else {
   print("b is not greater than a")
 }
 # 10 & 1000
 # 10 & ! 0
 # 1:10
-x <-'my name is rakib'
-y <-'I am 10 years old'
-'nam'%in% "name"
+x <- "my name is rakib"
+y <- "I am 10 years old"
+"nam" %in% "name"
 
 # If else:
 # a <- 200
