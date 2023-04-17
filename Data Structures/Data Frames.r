@@ -14,7 +14,6 @@ x <- summary(Data_Frame)
 yy <- data.frame(x)
 yy[2]
 # 100 %in% Data_Frame[[2]]
-
 # dim(Data_Frame)
 # Data_Frame[[2]][1]
 # Print the data frame
